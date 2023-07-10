@@ -1,0 +1,55 @@
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+p {
+    background-color: rgb(225, 234, 241);
+    border-radius: 20px;
+    width: 400px;
+    padding: 15px;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.halim {
+    margin: auto;
+    text-align: center;
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home {
+    display: flex;
+    width: 600px;
+    overflow: hidden;
+}
+
+.img_scroll {
+    display: flex;
+    animation-duration: 20s;
+    animation-name: scroll-img;
+    animation-iteration-count: infinite;
+}
+
+@keyframes scroll-img {
+    0% {
+        transform: translateX(0px);
+    }
+    33% {
+        transform: translateX(-600px);
+    }
+    66% {
+        transform: translateX(-1200px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}

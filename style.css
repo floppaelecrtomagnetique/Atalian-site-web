@@ -1,0 +1,77 @@
+body {
+    background-image: url(assets/building-dawn.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a.home {
+    text-decoration: none;
+    color: #000
+}
+
+nav.navbar {
+    background-color: rgba(134, 134, 133, 0.797);
+    border-radius: 0px 0px 10px 10px;
+  }
+  
+  ul.navbar {
+    list-style-type: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li.navbar {
+    display: inline-block;
+  }
+  
+  li.navbar a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #555555c4;
+    border-radius: 10px;
+  }
+
+.header {
+    display: flex;
+    background-color: rgba(255, 136, 0, 0.799);
+    padding: 8px;
+    text-align: left;
+    font-family: 'bob';
+    border-radius: 10px 10px 0px 0px;
+}
+
+@font-face {
+    font-family: 'bob';
+    src: url(fonts/Greating.ttf);
+}
+
+.barre-de-contact {
+  background-color: rgba(110, 113, 116, 0.79);
+    margin: auto;
+    display: flex;
+    justify-content: right;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+ul li {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+}
+/* .le-mot-du-président {
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+} */
