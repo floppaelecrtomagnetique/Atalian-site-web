@@ -33,7 +33,7 @@ nav.navbar {
     text-decoration: none;
   }
   
-  li a:hover {
+.navbar li a:hover {
     background-color: #555555c4;
     border-radius: 10px;
   }
@@ -65,10 +65,9 @@ ul {
     font-size: 20px;
 }
 
-ul li {
+.barre-de-contact ul li a {
     text-decoration: none;
-    color: #fff;
-    padding: 5px;
+    color: #000000;
 }
 /* .le-mot-du-président {
     padding: 20px;
