@@ -19,7 +19,7 @@
 p{
     display: flex;
     font-size: 25px;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     justify-content: center;
     width: auto;
 }
@@ -42,17 +42,28 @@ p{
     margin-right: 25px;
 }
 
-ul li {
-    list-style: none;
-    margin: 10px;
-    font-size: 20px;
-    color: aliceblue;
+ul{
+    display: flex;
+    flex-wrap: wrap;
     width: fit-content;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
-ul{
-    display: flex;
+ul li {
+    flex: 1 0 70px;
+    list-style: none;
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
     width: fit-content;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+ul li img {
+    flex: 1 0 70px;
+    margin: 35px;
 }
