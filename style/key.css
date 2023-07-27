@@ -2,7 +2,9 @@
     text-align: center;
     max-width: 100%;
     height: auto;
-    margin-top: 15px;
+    margin-top: 180px;
+    margin-right: 12vw;
+    margin-left: 12vw;
 }
 
 img {
@@ -15,6 +17,11 @@ h2 {
     color: #ee8412;
     font-weight: 700;
     text-align: center;
+    padding-bottom: 15px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    border-bottom: 1px solid #ee8412;
+    margin-bottom: 20px;
 }
 
 .some-numbers ul {
