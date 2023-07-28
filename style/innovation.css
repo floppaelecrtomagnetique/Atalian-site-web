@@ -1,0 +1,99 @@
+img.touch-hologram {
+    width: 80%;
+    height: auto;
+    margin-top: 180px;
+    margin-left: 10vw;
+    margin-right: 12vw;
+    margin-bottom: 50px
+}
+
+h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(244, 100, 10);
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid rgb(244, 100, 10);
+    margin-right: 12vw;
+    margin-left: 12vw;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+
+.strategie-innovation {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 12vw;
+    margin-left: 12vw;
+    margin-bottom: 50px;
+    color: rgb(132, 128, 126);
+}
+
+.ecosystem-atalian img{
+    width: 50%;
+    text-align: center;
+    height: auto;
+    margin-left: 25vw;
+    margin-right: 12vw;
+    margin-bottom: 50px;
+}
+
+ul.retour-sur-nos-succes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    margin-bottom: 50px;
+}
+
+ul.retour-sur-nos-succes li {
+    text-align: center;
+    max-width: 250px;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+
+ul  li.element img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+ul  li.element h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+ul  li.element p {
+    margin-left: 15px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    width: 170px;
+}
+
+ul  li.element .categorie {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: rgb(244, 100, 10);
+}
+
+ul.perspective-2023 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgb(122, 121, 120);
+}
+
+ul.perspective-2023 li {
+    text-align: center;
+    max-width: 180px;
+    min-width: 180px;
+    margin-bottom: 50px;
+}

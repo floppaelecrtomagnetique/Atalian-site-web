@@ -40,7 +40,7 @@ li.navbar a {
     border-radius: 10px;
 }
 
-.navbar li:hover .about {
+.navbar li:hover .drop {
     /* position: absolute; */
     display: block;
     border: 1px solid #000;
@@ -48,12 +48,12 @@ li.navbar a {
     background-color: rgb(220, 216, 216);
 }
 
-.about li a {
+.drop li a {
     text-decoration: none;
     color: #000000;
 }
 
-.about {
+.drop {
     display: none;
     position: absolute;
 }
