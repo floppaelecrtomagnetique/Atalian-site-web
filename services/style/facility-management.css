@@ -1,0 +1,66 @@
+h1.page {
+    color: rgb(249, 126, 11);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    padding-top: 200px;
+    margin-bottom: 45px;
+    margin-left: 12vw;
+    margin-right: 12vw;
+}
+
+img.brainstorm {
+    width: 75%;
+    height: auto;
+    margin-bottom: 45px;
+    margin-left: 12vw;
+    margin-right: 12vw;
+}
+
+h2 {
+    color: rgb(249, 126, 11);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 45px;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgb(249, 126, 11);
+}
+
+p {
+    color: #605e5e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    margin-bottom: 45px;
+    margin-left: 12vw;
+    margin-right: 12vw;
+}
+
+ul.FM {
+    list-style: outside;
+    color: #605e5e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    margin-bottom: 45px;
+    margin-left: 12vw;
+    margin-right: 12vw;
+}
+
+ul.FM li {
+    margin-bottom: 25px;
+}
+
+img.FM {
+    width: 55%;
+    height: auto;
+    margin-bottom: 45px;
+    margin-left: 22vw;
+    margin-right: 22vw;
+}
