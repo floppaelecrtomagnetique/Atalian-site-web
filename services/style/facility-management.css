@@ -1,5 +1,9 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 h1.page {
-    color: rgb(249, 126, 11);
+    color: rgb(231, 119, 15);
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
@@ -19,7 +23,7 @@ img.brainstorm {
 }
 
 h2 {
-    color: rgb(249, 126, 11);
+    color: rgb(231, 119, 15);
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
@@ -29,7 +33,7 @@ h2 {
     margin-left: 12vw;
     margin-right: 12vw;
     padding-bottom: 25px;
-    border-bottom: 1px solid rgb(249, 126, 11);
+    border-bottom: 1px solid rgb(231, 119, 15);
 }
 
 p {
@@ -63,4 +67,175 @@ img.FM {
     margin-bottom: 45px;
     margin-left: 22vw;
     margin-right: 22vw;
+}
+
+div.le_mot_de_eric_soriano {
+    margin-bottom: 45px;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 17px;
+    text-align: center;
+    color: #605e5e;
+}
+
+.points_forts {
+    display: flex;
+    margin-bottom: 45px;
+    margin-left: 12vw;
+    margin-right: 12vw;
+}
+
+.points_forts ul {
+    list-style-type: disc;
+    color: #605e5e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    margin-bottom: 45px;
+    margin-left: 30px
+}
+
+.points_forts img {
+    width: 30%;
+    height: 30%;
+    margin-bottom: 45px;
+}
+
+.points_forts li {
+    margin-bottom: 15px;
+}
+
+.points_forts h3 {
+    color: rgb(231, 119, 15);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.vos_benefices {
+    display: flex;
+    margin-bottom: 45px;
+    margin-left: 12vw;
+    margin-right: 12vw;
+}
+
+.vos_benefices ul {
+    list-style-type: disc;
+    color: #605e5e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    margin-bottom: 45px;
+    margin-right: 30px
+}
+
+.vos_benefices img {
+    width: 30%;
+    height: 30%;
+    margin-bottom: 45px;
+}
+
+.vos_benefices li {
+    margin-bottom: 15px;
+}
+
+.vos_benefices h3 {
+    color: rgb(231, 119, 15);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+
+.Case_study {
+    display: flex;
+    margin-bottom: 45px;
+    margin-left: 12vw;
+    margin-right: 12vw;
+}
+
+.Case_study img {
+    width: 30%;
+    height: 30%;
+    margin-bottom: 45px;
+}
+
+.Case_study p {
+    margin: 0;
+    color: #605e5e;
+    margin-left: 30px;
+    margin-bottom: 45px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #c7c6c6;
+}
+
+.Case_study ul {
+    list-style-type: disc;
+    color: #605e5e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    margin-bottom: 45px;
+    margin-left: 30px
+}
+
+.Case_study li {
+    margin-bottom: 15px;
+}
+.space_management {
+    display: flex;
+    margin-bottom: 45px;
+    margin-left: 12vw;
+    margin-right: 12vw;
+}
+
+.space_management ul {
+    list-style-type: disc;
+    color: #605e5e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    margin-bottom: 45px;
+    margin-right: 30px
+}
+
+.space_management li {
+    margin-bottom: 15px;
+}
+
+.space_management img {
+    width: 30%;
+    height: 30%;
+    margin-bottom: 45px;
+}
+
+.space_management p {
+    margin: 0;
+    color: #605e5e;
+    margin-right: 30px;
+    margin-bottom: 25px;
+}
+
+.reference {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+    margin-left: 12vw;
+    margin-right: 12vw;
+}
+
+.reference a {
+    margin: 0;
+}
+
+.reference img {
+    height: auto;
+    width: 50%;
+    margin: 0;
+    padding: 0;
 }
