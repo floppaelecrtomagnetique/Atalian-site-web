@@ -1,4 +1,85 @@
-h2 {
+img.FP {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 150px;
+    /* margin-left: 5%; */
+}
+
+h1.présentation {
+    font-size: 35px;
+    font-weight: 300;
+    color: rgb(245, 110, 20);
+    margin-top: 45px;
+    margin-left: 3%;
+    width: fit-content;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-bottom: 2px solid rgb(245, 110, 20);
+}
+
+p {
+    font-size: 20px;
+    font-weight: 200;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 25px;
+    text-align: justify;
+    color: rgb(97, 96, 96);
+    line-height: 25px;
+}
+
+ul.mot-de-direction {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: darkgrey;
+    border-radius: 0px;
+    padding: 15px;
+}
+
+ul.mot-de-direction li {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 200;
+    /* color: rgb(245, 110, 20); */
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0.2px 5px 5px rgba(0, 0, 0, 0.447);
+}
+
+ul.mot-de-direction p {
+    width: 600px;
+    padding: 50px;
+}
+
+li.halim {
+    background-color: rgb(236, 119, 41);
+    border-radius: 0;
+}
+
+li.abdelaziz {
+    background-color: aliceblue;
+}
+
+ul.mot-de-direction img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* ul.mot-de-direction li:hover {
+    background-color: rgb(245, 110, 20);
+    color: white;
+    transition: 0.5s;
+} */
+
+/* h2 {
     text-align: center;
     font-size: 30px;
     color: rgb(255, 255, 255);
@@ -52,4 +133,4 @@ p {
     100% {
         transform: translateX(0px);
     }
-}
+} */

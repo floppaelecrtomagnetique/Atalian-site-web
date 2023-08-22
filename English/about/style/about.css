@@ -1,0 +1,71 @@
+
+img.laught {
+    margin-top: 180px;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    text-align: center;
+}
+
+ h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: rgb(226, 126, 4);
+    border-bottom: 1px solid rgb(226, 126, 4);
+    padding-bottom: 15px;
+    height: 50px;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    margin-top: 40px;
+}
+
+p {
+    margin-top: 20px;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex: 1 0 200px; 
+    font-size: 20px;
+    color: rgb(118, 116, 116);
+    justify-content: center;
+    width: auto;
+}
+
+p img {
+    width: 300px;
+    height: 300px;
+    margin-right: 25px;
+    padding-left: 25px;
+}
+
+.list ul{
+    display: flex;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    flex-wrap: wrap;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.list ul li {
+    flex: 1 0 70px;
+    display: block;
+    list-style: none;
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.list ul li img {
+    width: 100px;
+    height: 100px;
+    margin-right: 25px;
+}

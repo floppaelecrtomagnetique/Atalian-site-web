@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a.home {
+    text-decoration: none;
+    color: #fffffff1
+}
+
+nav.navbar {
+    margin-top: 85px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 0px 0px 10px 10px;
+    font-size: 20px;
+    list-style-type: none;
+    width: 100%;
+    position: fixed;
+}
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+li.navbar {
+  display: inline-block;
+  vertical-align: top;
+}
+
+li.navbar a {
+    display: block;
+    padding: 10px 20px;
+    color: #656565;
+    text-decoration: none;
+}
+  
+.navbar li a:hover {
+    background-color: #555555c4;
+    color: #f88a0d;
+    border-radius: 10px;
+}
+
+.navbar li:hover .drop {
+    /* position: absolute; */
+    display: block;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: rgb(220, 216, 216);
+    list-style-type: none;
+}
+
+.drop li a {
+    text-decoration: none;
+    color: #656565;
+}
+
+.drop {
+    display: none;
+    position: absolute;
+}
+
+.header {
+    display: flex;
+    /* background-image: linear-gradient(to right, rgb(244, 178, 127), rgb(250, 103, 11)); */
+    background-color: rgb(237, 106, 24);
+    padding: 8px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    width: 100%;
+    height: auto;
+}
+
+
+.barre-de-contact {
+    background-color: rgba(110, 113, 116, 0.79);
+    margin: 0;
+    margin-top: 50px;
+    display: flex;
+    justify-content: right;
+    border-radius: 10px;
+    width: 100%;
+    height: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.barre-de-contact ul {
+    list-style-type: none;
+    font-size: 15px;
+}
+
+.barre-de-contact ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.barre-de-contact ul li a:hover {
+    text-decoration: none;
+    color: #e78c05;
+}
+/* .le-mot-du-président {
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+} */

@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+}
+
+a.home {
+    text-decoration: none;
+    color: #000
+}
+
+nav.navbar {
+    margin-top: 116px;
+    background-color: rgb(134, 134, 133);
+    border-radius: 0px 0px 10px 10px;
+    width: 100%;
+    position: fixed;
+}
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+li.navbar {
+  display: inline-block;
+  vertical-align: top;
+}
+
+li.navbar a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+  
+.navbar li a:hover {
+    background-color: #555555c4;
+    color: #f88a0d;
+    border-radius: 10px;
+}
+
+.navbar li:hover .drop {
+    /* position: absolute; */
+    display: block;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: rgb(220, 216, 216);
+}
+
+.drop li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.drop {
+    display: none;
+    position: absolute;
+}
+
+.header {
+    display: flex;
+    background-image: linear-gradient(to right, rgb(244, 178, 127), rgb(250, 103, 11));
+    padding: 8px;
+    text-align: left;
+    font-family: 'bob';
+    border-radius: 10px 10px 0px 0px;
+    position: fixed;
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'bob';
+    src: url(fonts/Greating.ttf);
+}
+
+.barre-de-contact {
+    background-color: rgba(110, 113, 116, 0.79);
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: right;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.barre-de-contact ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+/* .le-mot-du-président {
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+} */

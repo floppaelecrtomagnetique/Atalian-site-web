@@ -43,6 +43,7 @@ ul.nos-engagement li img{
 
 ul.nos-engagement li {
     display: flex;
+    margin-bottom: 50px;
 }
 
 ul.nos-engagement li h3 {

@@ -1,0 +1,139 @@
+h1.theme {
+    color: rgb(249, 126, 11);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    padding-top: 220px;
+    margin-bottom: 45px;
+    margin-left: 12vw;
+    margin-right: 12vw;
+}
+
+img.theme {
+    width: 75%;
+    height: auto;
+    margin-bottom: 45px;
+    margin-left: 12vw;
+    margin-right: 12vw;
+}
+
+h2 {
+    color: rgb(249, 126, 11);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 45px;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgb(249, 126, 11);
+}
+
+p.paragraph {
+    display: flex;
+    align-items: center;
+    margin-bottom: 45px;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    text-align: justify;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(99, 99, 98);
+}
+
+.offer p img {
+    flex: 1 0 50%;
+    min-width: 0;
+    height: auto;
+    margin-right: 25px;
+}
+
+.case p img {
+    flex: 1 0 50%;
+    min-width: 0;
+    height: auto;
+    margin-left: 25px;
+}
+
+span.eric-soriano {
+    display: flex;
+    margin-right: 12vw;
+    margin-left: 12vw;
+}
+
+img.eric-soriano{
+    width: 20%;
+    height: auto;
+}
+
+ul.expertise {
+    margin-left: 12vw;
+    margin-right: 12vw;
+    margin-bottom: 45px;
+}
+
+ul.expertise li {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+ul.expertise li img {
+    width: 10%;
+    height: auto;
+    margin-right: 25px;
+}
+
+ul.expertise h3 {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 250;
+    color: rgb(236, 95, 13);
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.all-services {
+    width: 50%;
+    height: auto;
+    text-align: center;
+    margin-left: 25vw;
+    margin-bottom: 45px;
+}
+
+@media screen and (max-width: 768px) {
+    p {
+        flex-direction: column;
+    }
+    .offer p img {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .case p img {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    span.eric-soriano {
+        flex-direction: column;
+    }
+    ul.expertise li {
+        display: block;
+    }
+
+    .all-services {
+        width: 90%;
+        height: auto;
+        text-align: center;
+        margin-left: 10vw;
+    }
+}
+
+
