@@ -3,11 +3,11 @@ img.FP {
     height: auto;
     object-fit: cover;
     object-position: center;
-    margin-top: 150px;
+    margin-top: 25px;
     /* margin-left: 5%; */
 }
 
-h1.présentation {
+h1.title {
     font-size: 35px;
     font-weight: 300;
     color: rgb(245, 110, 20);
@@ -19,6 +19,17 @@ h1.présentation {
     border-bottom: 2px solid rgb(245, 110, 20);
 }
 
+h2.title {
+    font-size: 35px;
+    font-weight: 300;
+    color: rgb(245, 110, 20);
+    text-align: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 p {
     font-size: 20px;
     font-weight: 200;
@@ -28,6 +39,94 @@ p {
     text-align: justify;
     color: rgb(97, 96, 96);
     line-height: 25px;
+}
+
+.présentation {
+    line-height: 30px;
+}
+
+div.separating-line {
+    height: 2px;
+    background-color: rgb(130, 130, 130);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+ul.nos-offres {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 0px;
+    padding: 15px;
+    padding-bottom: 50px;
+    list-style: none;
+    /* border-radius: 15px;
+    border: 1px solid rgb(245, 110, 20); */
+}
+
+ul.nos-offres img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+    /* margin-bottom: ; */
+}
+
+.FM {
+    text-align: center;
+    margin-left: 43%;
+}
+
+.FM a {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.FM a:hover {
+    background-color: rgba(223, 221, 221, 0.934);
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.FM img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+}
+
+ul.nos-offres li {
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+    padding: 0px 10px 40px 20px;
+    object-fit: cover;
+    object-position: center;
+    /* margin-bottom: ; */
+}
+
+.nos-offres li a {
+    text-align: justify;
+    color: black;
+    text-decoration: none;
+}
+
+.nos-offres li:hover {
+    background-color: rgba(223, 221, 221, 0.934);
+    
+    transition: 0.3s;
+    transform: scale(1.1);
 }
 
 ul.mot-de-direction {
@@ -73,47 +172,20 @@ ul.mot-de-direction img {
     object-position: center;
 }
 
-/* ul.mot-de-direction li:hover {
-    background-color: rgb(245, 110, 20);
-    color: white;
-    transition: 0.5s;
-} */
-
-/* h2 {
-    text-align: center;
-    font-size: 30px;
-    color: rgb(255, 255, 255);
+@media screen and (max-width: 770px) {
+    ul.mot-de-direction {
+        flex-direction: column;
+    }
+    ul.mot-de-direction li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    h2.title {
+        padding-top: 200px;
+    }
 }
 
-p {
-    background-color: rgb(225, 234, 241);
-    border-radius: 20px;
-    width: 400px;
-    padding: 15px;
-    margin: auto;
-    font-size: 20px;
-    text-align: center;
-    font-weight: bold;
-}
-
-.halim {
-    margin-top: 140px;
-    text-align: center;
-}
-
-.all {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#home {
-    display: flex;
-    width: 600px;
-    overflow: hidden;
-}
-
-.img_scroll {
+/* .img_scroll {
     display: flex;
     animation-duration: 20s;
     animation-name: scroll-img;

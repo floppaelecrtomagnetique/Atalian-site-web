@@ -221,21 +221,28 @@ div.le_mot_de_eric_soriano {
     margin-bottom: 25px;
 }
 
-.reference {
+/* .reference {
     display: flex;
     justify-content: center;
     margin-bottom: 45px;
     margin-left: 12vw;
     margin-right: 12vw;
-}
+} */
 
-.reference a {
+/* .reference a {
     margin: 0;
+} */
+
+.reference {
+    white-space: nowrap; /* Empêche le passage à la ligne des images */
+    display: inline-block; /* Affiche les images en ligne */
+    margin-right: 20px; /* Espacement entre les images */
 }
 
 .reference img {
-    height: auto;
-    width: 50%;
-    margin: 0;
+    height: 80px;
+    width: auto;
+    margin: 0 15px;
     padding: 0;
+    overflow: hidden;
 }

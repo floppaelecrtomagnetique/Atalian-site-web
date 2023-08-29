@@ -1,14 +1,53 @@
+h1.title {
+    padding-top: 180px;
+    font-size: 25px;
+    margin-left: 7vw;
+    text-transform: uppercase;
+    color: #ee8412;
+    font-family: Arial, Helvetica, sans-serif;
+    width: fit-content;
+    border-bottom: 1px solid #ee8412;
+}
+
 .cleaning {
     text-align: center;
     max-width: 100%;
     height: auto;
-    margin-top: 180px;
-    margin-right: 12vw;
-    margin-left: 12vw;
+    margin-top: 45px;
+    margin-left: 15vw;
 }
 
-img {
+/* .places {
+    display: flex;
+    justify-content: space-around;
+} */
+
+.separator {
+    width: 1px;
+    height: 180px;
+    background-color: #000000;
+}
+
+.chiffres {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.chiffres div {
+    display: block;
+}
+
+.chiffres ul {
+    width: 700px;
+    /* display: flex; */
+}
+
+.chiffres h3 {
     text-align: center;
+    margin-bottom: 25px;
 }
 
 h2 {
@@ -70,6 +109,7 @@ h2 {
 }
 
 .years {
+    list-style-type: none;
     display: flex;
     flex-wrap: wrap;
 }
@@ -77,4 +117,27 @@ h2 {
 .years li {
     flex: 1 1 70px;
     text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .chiffres {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .chiffres ul {
+        width: 100%;
+    }
+
+    .chiffres div {
+        margin-bottom: 25px;
+    }
+
+    .separator {
+        width: 300px;
+        height: 1px;
+    }
+    img.cleaning {
+        max-width: 560px;
+    }
 }

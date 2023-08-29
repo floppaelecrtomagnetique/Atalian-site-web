@@ -188,6 +188,10 @@ div.sectors-small div {
     overflow: hidden;
     cursor: pointer;
   }
+
+  .button:hover {
+    scale: 1.1;
+  }
   
   .button:after {
     content: "";
@@ -207,4 +211,23 @@ div.sectors-small div {
     margin: 0;
     opacity: 1;
     transition: 0s
+  }
+
+  .references ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-bottom: 45px;
+  }
+
+  .references ul li {
+    list-style-type: none;
+    /* margin-right: 15px; */
+  }
+
+  .references ul li img {
+    width: auto;
+    height: 200px;
   }

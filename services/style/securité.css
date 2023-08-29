@@ -1,0 +1,95 @@
+h1.title {
+    padding-top: 180px;
+    color: rgb(255, 153, 0);
+    margin-bottom: 45px;
+    margin-left: 25px;
+}
+
+img.main {
+    /* width: 100%; */
+    height: auto;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 50px;
+}
+
+h2.title {
+    text-align: center;
+    color: rgb(255, 153, 0);
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    color: rgb(95, 95, 95);
+    font-size: 1.2em;
+    margin-bottom: 50px;
+
+}
+
+div.SFS {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+ul.specific {
+    width: 290px;
+    height: 380px;
+    border-radius: 15px;
+    margin: 0;
+    /* margin: 10px; */
+}
+
+div.wrapper {
+    border-radius: 15px;
+    width: 300px;
+    height: 430px;
+    padding: 5px;
+}
+
+ul.specific li {
+    margin-left: 20px;
+    width: 250px;
+    /* margin-right: 20px; */
+    margin-bottom: 10px;
+    /* text-align: justify; */
+}
+
+ul.specific li ul {
+    list-style-type: none;
+}
+
+ul.specific li ul li::before {
+    content: "-";
+    margin-right: 0.5em;
+}
+
+ul h3 {
+    text-align: center;
+    color: white;
+    border-radius: 15px 15px 0 0;
+    /* font-size: 1.5em; */
+    margin: 0;
+    padding: 10px;
+}
+
+div.certif {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+div.certif img {
+    width: 200px;
+    height: auto;
+}

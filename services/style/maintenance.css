@@ -1,0 +1,85 @@
+h1.title {
+    padding-top: 150px;
+    color: rgb(234, 140, 40);
+    border-bottom: 2px solid rgb(234, 140, 40);
+    margin-bottom: 45px;
+    margin-left: 3%;
+    width: fit-content;
+}
+
+img.title {
+    margin-bottom: 45px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(234, 140, 40);
+}
+
+img.references {
+    width: auto;
+    height: 60px;
+    margin-bottom: 45px;
+    margin-left: 12vw;
+    margin-right: 12vw;
+}
+
+.Prestation_Multitechnique {
+    list-style: none;
+    background-color: rgb(234, 140, 40);
+    border-radius: 15px;
+    width: 600px;
+    height: 200px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Prestation_Multitechnique li {
+    /* text-align: center; */
+    text-justify: auto;
+    font-size: 20px;
+    margin: 15px;
+}
+
+div.row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 45px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(234, 140, 40);
+    margin-bottom: 10px;
+}
+
+.row ul {
+    list-style-type: none;
+    padding: 10px;
+    border-radius: 15px;
+    width: 300px;
+    height: 200px;
+}
+
+.row li {
+    /* text-align: center; */
+    margin: 15px;
+    font-size: 20px;
+}
+
+.Orange {
+    /* background: linear-gradient(to bottom right, rgb(234, 140, 40), rgb(97, 96, 96), rgb(194, 194, 194)); */
+    background-color: rgb(234, 140, 40);
+    border-radius: 15px;
+}
+
+.Gris {
+    /* background: linear-gradient(to bottom right, rgb(194, 194, 194), rgb(97, 96, 96), rgb(234, 140, 40)); */
+    background-color: rgb(194, 194, 194);
+    border-radius: 15px;
+}

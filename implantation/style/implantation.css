@@ -1,0 +1,31 @@
+h1.title {
+    padding-top: 180px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ee8412;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+img.map {
+    max-width: 800px;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    text-align: center;
+    align-self: center;
+    margin-left: 250px;
+}
+
+img.map-africa {
+    max-width: 500px;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    text-align: center;
+    align-self: center;
+    margin-top: 50px;
+    margin-left: 450px;
+}
