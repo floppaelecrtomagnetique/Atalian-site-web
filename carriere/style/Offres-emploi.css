@@ -1,0 +1,95 @@
+h1.title {
+    padding-top: 180px;
+    color: rgb(255, 136, 0);
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-left: 45px;
+    width: fit-content;
+    border-bottom: 3px solid rgb(255, 136, 0);
+}
+
+p {
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 25px;
+    width: 75%;
+    margin-bottom: 35px;
+    font-size: 20px;
+    text-align: justify;
+    color: #605e5e;
+}
+
+div.offres {
+    width: 50%;
+    height: 400px;
+    background-color: rgb(205, 205, 205);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    border-radius: 15px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+div.emploi {
+    transition: 0.3s ease-in-out;
+    display: flex;
+    padding: 25px;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    /* cursor: pointer; */
+    height: 100px;
+}
+
+div.emploi img {
+    height: 80px;
+    width: auto;
+    margin-right: 25px;
+}
+
+div.emploi div h2 {
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+div.emploi div span {
+    width: fit-content;
+    max-width: 150px;
+    font-size: 17px;
+    color: #605e5e;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: block;
+}
+
+.drop-down{
+    transition: 0.7s ease-in-out;
+    display: none;
+    margin-top: 25px;
+    font-size: 20px;
+    color: #605e5e;
+}
+
+div.emploi:hover {
+    transition: 0.3s ease-in-out;
+    scale: 1.1;
+    min-height: 400px;
+    height: fit-content;
+}
+
+div.emploi:hover .drop-down{
+    transition: 0.7s ease-in-out;
+    display: block;
+}
+
+.description {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.space {
+    margin-bottom: 50px;
+}

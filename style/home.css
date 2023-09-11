@@ -91,11 +91,11 @@ ul.nos-offres img {
     display: block;
     padding: 10px 20px;
     border-radius: 15px;
+    transition: 0.5s ease-in-out;
 }
 
 .FM a:hover {
     background-color: rgba(223, 221, 221, 0.934);
-    transition: 0.5s;
     transform: scale(1.1);
 }
 
@@ -114,6 +114,7 @@ ul.nos-offres li {
     object-fit: cover;
     object-position: center;
     /* margin-bottom: ; */
+    transition: 0.3s ease-in-out;
 }
 
 .nos-offres li a {
@@ -124,65 +125,7 @@ ul.nos-offres li {
 
 .nos-offres li:hover {
     background-color: rgba(223, 221, 221, 0.934);
-    
-    transition: 0.3s;
     transform: scale(1.1);
-}
-
-ul.mot-de-direction {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    background-color: darkgrey;
-    border-radius: 0px;
-    padding: 15px;
-}
-
-ul.mot-de-direction li {
-    list-style: none;
-    font-size: 20px;
-    font-weight: 200;
-    /* color: rgb(245, 110, 20); */
-    padding: 10px;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0.2px 5px 5px rgba(0, 0, 0, 0.447);
-}
-
-ul.mot-de-direction p {
-    width: 600px;
-    padding: 50px;
-}
-
-li.halim {
-    background-color: rgb(236, 119, 41);
-    border-radius: 0;
-}
-
-li.abdelaziz {
-    background-color: aliceblue;
-}
-
-ul.mot-de-direction img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    object-position: center;
-}
-
-@media screen and (max-width: 770px) {
-    ul.mot-de-direction {
-        flex-direction: column;
-    }
-    ul.mot-de-direction li {
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    h2.title {
-        padding-top: 200px;
-    }
 }
 
 /* .img_scroll {

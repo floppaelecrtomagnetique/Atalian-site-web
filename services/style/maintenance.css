@@ -1,7 +1,6 @@
 h1.title {
     padding-top: 150px;
     color: rgb(234, 140, 40);
-    border-bottom: 2px solid rgb(234, 140, 40);
     margin-bottom: 45px;
     margin-left: 3%;
     width: fit-content;
@@ -9,12 +8,17 @@ h1.title {
 
 img.title {
     margin-bottom: 45px;
+    margin-left: 250px;
+    width: 70%;
 }
 
 h2 {
-    text-align: center;
+    width: fit-content;
+    margin-left: 45px;
+    margin-bottom: 45px;
     font-size: 30px;
     color: rgb(234, 140, 40);
+    border-bottom: 2px solid rgb(234, 140, 40);
 }
 
 img.references {
@@ -56,6 +60,15 @@ h3 {
     font-size: 25px;
     color: rgb(234, 140, 40);
     margin-bottom: 10px;
+}
+
+.back {
+    background-color: rgb(88, 88, 88);
+    border-radius: 15px;
+    border-radius: 0%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 45px;
 }
 
 .row ul {

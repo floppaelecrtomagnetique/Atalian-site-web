@@ -9,6 +9,17 @@ body img.ofa {
 }
 
 .nos-valeur h2 {
+    width: fit-content;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(226, 126, 4);
+    border-bottom: 1px solid rgb(226, 126, 4);
+    padding-bottom: 5px;
+    margin-top: 40px;
+    margin-left: 45px;
+    margin-bottom: 25px;
+}
+/* .nos-valeur h2 {
     color: rgb(245, 121, 33);
     font-size: 25px;
     text-transform: uppercase;
@@ -20,7 +31,7 @@ body img.ofa {
     margin-top: 30px;
     margin-bottom: 50px;
     padding-bottom: 15px;
-}
+} */
 
 p.first_paragraph {
     text-align: left;

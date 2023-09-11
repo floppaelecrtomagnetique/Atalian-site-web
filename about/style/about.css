@@ -1,26 +1,32 @@
+h1.title {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(226, 126, 4);
+    padding-top: 180px;
+    margin-left: 45px;
+    margin-bottom: 45px;
+}
 
 img.laught {
-    margin-top: 180px;
-    margin-left: 12vw;
-    margin-right: 12vw;
+    margin-left: 250px;
+    margin-right: auto;
+    width: 70%;
     text-align: center;
 }
 
  h2 {
-    text-align: center;
-    font-size: 30px;
+    width: fit-content;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
     color: rgb(226, 126, 4);
     border-bottom: 1px solid rgb(226, 126, 4);
-    padding-bottom: 15px;
-    height: 50px;
-    margin-left: 12vw;
-    margin-right: 12vw;
+    padding-bottom: 5px;
     margin-top: 40px;
+    margin-left: 45px;
+    margin-bottom: 25px;
 }
 
-p {
+p.about {
     margin-top: 20px;
     margin-left: 12vw;
     margin-right: 12vw;
@@ -42,17 +48,18 @@ p img {
 
 .list ul{
     display: flex;
-    margin-left: 12vw;
-    margin-right: 12vw;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
     flex-wrap: wrap;
     width: fit-content;
-    justify-content: center;
     align-items: center;
     text-align: center;
 }
 
 .list ul li {
     flex: 1 0 70px;
+    flex-wrap: wrap;
     display: block;
     list-style: none;
     margin: 10px;
@@ -68,4 +75,68 @@ p img {
     width: 100px;
     height: 100px;
     margin-right: 25px;
+}
+
+ul.mot-de-direction {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: darkgrey;
+    border-radius: 0px;
+    padding: 15px;
+}
+
+ul.mot-de-direction li {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 200;
+    /* color: rgb(245, 110, 20); */
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0.2px 5px 5px rgba(0, 0, 0, 0.447);
+}
+
+ul.mot-de-direction p {
+    width: 600px;
+    padding: 50px;
+}
+
+li.halim {
+    background-color: rgb(236, 119, 41);
+    border-radius: 0;
+}
+
+li.abdelaziz {
+    background-color: aliceblue;
+}
+
+ul.mot-de-direction img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.our_mission {
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 770px) {
+    ul.mot-de-direction {
+        flex-direction: column;
+    }
+    ul.mot-de-direction li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    h2.title {
+        padding-top: 200px;
+    }
+    img.laught {
+        width: 100%;
+        margin-left: 0px;
+    }
 }

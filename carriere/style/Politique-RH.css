@@ -1,0 +1,55 @@
+h1.title {
+    padding-top: 180px;
+    color: rgb(255, 136, 0);
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-left: 45px;
+    width: fit-content;
+    border-bottom: 3px solid rgb(255, 136, 0);
+}
+
+p {
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 25px;
+    width: 75%;
+    margin-bottom: 35px;
+    font-size: 20px;
+    text-align: justify;
+    color: #605e5e;
+    
+}
+
+.click-dropdown p {
+    margin-top: 25px;
+    color: #ffffff;
+}
+
+.wrapper {
+    background-color: #f1910c;
+    padding: 15px;
+    margin: 25px;
+    margin-left: 75px;
+    margin-right: 75px;
+    border-radius: 15px;
+}
+
+h2 {
+    color: rgb(255, 136, 0);
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-left: 45px;
+    width: fit-content;
+    border-bottom: 3px solid rgb(255, 136, 0);
+}
+
+h3 {
+    width: fit-content;
+    margin-left: 75px;
+    color: #605e5e;
+    font-size: 25px;
+    margin-bottom: 25px;
+    border-bottom: #605e5e 2px solid;
+}

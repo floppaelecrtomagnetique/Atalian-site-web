@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -35,17 +36,16 @@ li.navbar a {
     padding: 10px 20px;
     color: #656565;
     text-decoration: none;
+    transition: 0.2s ease-in-out;
 }
   
 .navbar li a:hover {
-    transition: 0.2s;
     background-color: #555555c4;
     color: #f88a0d;
     border-radius: 5px;
 }
 
 .navbar li:hover .drop {
-    transition: 0.2s;
     display: block;
     border: 1px solid #000;
     border-radius: 5px;
@@ -59,6 +59,7 @@ li.navbar a {
 }
 
 .drop {
+    transition: 0.2s ease-in-out;
     display: none;
     position: absolute;
 }
