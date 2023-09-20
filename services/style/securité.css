@@ -6,7 +6,7 @@ h1.title {
 }
 
 img.main {
-    /* width: 100%; */
+    width: 80%;
     height: auto;
     margin-left: 10vw;
     margin-right: 10vw;
@@ -19,18 +19,18 @@ h2.title {
     font-size: 2em;
     width: max-content;
     margin: 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10vw;
+    margin-right: 10vw;
     margin-bottom: 20px;
     padding: 10px;
     text-transform: uppercase;
     border-bottom: 1px solid rgb(255, 153, 0);
 }
 
-p {
+p.savoir-faire {
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10vw;
+    margin-right: 10vw;
     text-align: justify;
     color: rgb(95, 95, 95);
     font-size: 1.2em;

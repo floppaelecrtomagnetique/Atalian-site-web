@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style/Offres-emploi.css">
     <link rel="stylesheet" href="../style/style.css">
     <div class="header">
-        <h1><a href="../index.html" class="home">A Simple Way <br> Facility Management</a></h1>
+        <h1><a href="../index.html" class="home">ASW</a></h1>
         <a href="#"><img src="../assets/France.jpeg" style="width: 30px; height: 20px;" alt="French flag"></a>
         <a href="../English/about/about.html"><img src="../assets/UK.png" style="width: 30px; height: 20px;" alt="UK flag"></a>
     </div>
@@ -47,38 +47,23 @@
                 <ul class="drop">
                     <li><a href="Politique-RH.html">Politique Ressources Humaines</a></li>
                     <li><a href="Politique-emploi.html">Notre Politique d'Emploi</a></li>
-                    <li><a href="#">Formation et mobilité</a></li>
+                     
                     <li><a href="../carriere/Offres-emploi.php">Nos offres d'emploi</a></li>
                 </ul>
             </li>
             <li class="navbar"><a href="#">Medias</a>
                 <ul class="drop">
-                    <li><a href="#">Actualités</a></li>
-                    <li><a href="#">Presse</a></li>
+                    <li><a href="#">Actualités</a></li>  
                     <li><a href="#">Téléchargez nos brochures</a></li>
-                    <li><a href="#">Vidéos</a></li>
+                     
                 </ul>
             </li>
-            <li class="navbar"><a href="#">Investisseur</a>
-                <ul class="drop">
-                    <li><a href="#">Investors News</a></li>
-                    <li><a href="#">Corporate Governance</a></li>
-                    <li><a href="#">Financial information</a></li>
-                    <li><a href="#">Investor Relation</a></li>
-                </ul>
-            </li>
+             
             <li class="navbar"><a href="../contact/Contact.php">Contact</a>
         </ul>
     </nav>
 </head>
 <body>
-    <?php 
-        include "DB/database.php";
-
-        $offres = $carrière->prepare('SELECT * FROM offres');
-        $offres->execute();
-        $emploi = $offres->fetchAll();
-    ?>
 
     <h1 class="title">Les offres d'emplois chez <strong>A Simple Way Afrique</strong></h1>
     <p>
@@ -90,14 +75,41 @@
         Nos offres sont régulièrement mises à jour.
         N’hésitez pas à consulter nos offres dans le tableau ci-dessous. Une rubrique “candidature spontanée” est également disponible à la suite des ces offres.
     </p>
+    <div style="margin-left: 45px;">
+        <h2 style="color:darkorange ">Choisissez le Pays souhaité</h2>
+        <form method="post">
+            <select name="pays" id="pays">
+                <option value="Maroc">Maroc</option>
+                <option value="Sénégal">Sénégal</option>
+                <option value="Côte dIvoire">Côte d'Ivoire</option>
+                <option value="Bénin">Bénin</option>
+            </select>
+            <input type="submit" value="Rechercher">
+        </form>
+    </div>
+    <?php 
+        include "DB/database.php";
+        if (isset($_POST['pays']))
+            $request = "SELECT * FROM offres WHERE Pays = '".$_POST['pays']."' ORDER BY id DESC";
+        else
+            $request = "SELECT * FROM offres ORDER BY id DESC";
+
+        $offres = $carrière->prepare($request);
+        $offres->execute();
+        $emploi = $offres->fetchAll();
+    ?>
     <div class="offres">
-        <?php foreach($emploi as $ep) { ?>
+        <?php foreach($emploi as $ep) {
+            if ($ep['Pays'] == "Côte dIvoire") {
+                $ep['Pays'] = "Côte d'Ivoire";
+            }
+        ?>
         <div class="emploi">
             <img src="../assets/atalian-logo.png" alt="">
             <div>
                 <h2><?= $ep['Poste']?></h2>
                 <div class="flex" style="display: flex;">
-                    <span><?= $ep['Localisation']?></span>
+                    <span><?= $ep['Localisation']?>, <?=$ep['Pays']?></span>
                     <span><?php
                         if($ep['Temps'] == 'TPL') {
                             echo "Temps plein";
