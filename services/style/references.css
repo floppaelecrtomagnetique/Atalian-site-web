@@ -27,8 +27,13 @@ div.flex-ref {
 }
 
 .nos-ref {
+    font-size: 27px;
+    font-weight: 700;
     margin: 0 auto;
     margin-bottom: 25px;
+    width: fit-content;
+    color: #f3881d;
+    border-bottom: 1px solid #f3881d;
 }
 
 .ref li div {
@@ -49,12 +54,16 @@ div.flex-ref {
     z-index: 0;
 }
 
+p.description {
+    margin-bottom: 25px;
+}
+
 .ref p {
     color: white;
 }
 
 .ref img {
-    width: 120%;
+    width: 100%;
     height: auto;
     margin-bottom: 45px;
     transition: 0.2s ease-in-out;

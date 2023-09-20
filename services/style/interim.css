@@ -7,7 +7,7 @@ h1.title {
     color: #f3881d;
 }
 
-h2 {
+h2.presta {
     font-size: 27px;
     font-weight: 700;
     margin-bottom: 25px;
@@ -15,6 +15,14 @@ h2 {
     width: fit-content;
     color: #f3881d;
     border-bottom: 1px solid #f3881d;
+}
+
+img.main {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-left: 7vw;
 }
 
 .prestations {
@@ -58,6 +66,8 @@ h2 {
 }
 
 .proposition li {
+    list-style-type: none;
+    padding-left: 10px;
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 10px;
@@ -68,13 +78,7 @@ h2 {
     margin-bottom: 25px;
 }
 
-.ref {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 25px;
-}
-
-.ref img {
-    width: auto;
-    height: 80px;
-}
+/* .ref img {
+    width: 50%;
+    height: auto;
+} */
