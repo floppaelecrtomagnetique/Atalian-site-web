@@ -50,3 +50,35 @@ p {
     width: auto;
     height: 200px;
 }
+
+@media screen and (max-width: 768px) {
+
+    h1.title {
+        padding-top: 250px;
+    }
+
+    p {
+        flex-direction: column;
+    }
+
+    img.img-title {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        margin-left: 5%;
+        margin-bottom: 15px;
+    }
+    
+    .certifications {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 45px;
+    }
+    
+    .certifications img {
+        width: 40%;
+        height: auto;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+}

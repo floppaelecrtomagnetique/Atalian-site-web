@@ -6,6 +6,38 @@ div.flex-ref {
     margin-bottom: 45px;
 }
 
+@media screen and (max-width: 768px) {
+
+    h1.title {
+        padding-top: 250px;
+    }
+
+    p {
+        flex-direction: column;
+    }
+    
+    div.flex-ref {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 45px;
+    }
+
+    .ref ul {
+        list-style-type: none;
+        margin: 0 auto;
+    }
+
+    .ref li div {
+        width: 95%;
+        height: auto;
+        /* transform: translate3d(-60%, -20%, 0px); */
+        position: relative;
+    }
+}
+
 .ref {
     width: 30%;
     height: auto;

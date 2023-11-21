@@ -78,7 +78,38 @@ img.main {
     margin-bottom: 25px;
 }
 
-/* .ref img {
-    width: 50%;
-    height: auto;
-} */
+@media screen and (max-width: 768px) {
+
+    h1.title {
+        padding-top: 250px;
+    }
+
+    p {
+        flex-direction: column;
+    }
+    
+    .proposition {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: rgb(230, 230, 230);
+        margin-bottom: 25px;
+        padding: 25px;
+    }
+
+    .proposition div {
+        width: 100%;
+        background-color: #5b5b5b;
+        border-radius: 10px;
+    }
+
+    .proposition img {
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 100px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}

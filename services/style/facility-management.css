@@ -221,22 +221,11 @@ div.le_mot_de_eric_soriano {
     margin-bottom: 25px;
 }
 
-/* .reference {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 45px;
-    margin-left: 12vw;
-    margin-right: 12vw;
-} */
-
-/* .reference a {
-    margin: 0;
-} */
-
 .reference {
     white-space: nowrap; /* Empêche le passage à la ligne des images */
     display: inline-block; /* Affiche les images en ligne */
     margin-right: 20px; /* Espacement entre les images */
+    overflow: hidden;
 }
 
 .reference img {
@@ -245,4 +234,70 @@ div.le_mot_de_eric_soriano {
     margin: 0 15px;
     padding: 0;
     overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+
+    h1.page {
+        padding-top: 250px;
+    }
+
+    p {
+        flex-direction: column;
+    }
+
+    img.brainstorm {
+        width: 75%;
+        height: auto;
+        margin-bottom: 45px;
+        margin-left: 12vw;
+        margin-right: 12vw;
+    }
+
+    .points_forts {
+        flex-direction: column;
+        margin-bottom: 45px;
+        margin-left: 12vw;
+        margin-right: 12vw;
+    }
+
+    .points_forts img {
+        width: 90%;
+        height: 30%;
+        margin: 0 auto;
+        margin-bottom: 45px;
+    }
+    .vos_benefices {
+        flex-direction: column;
+        margin-bottom: 45px;
+        margin-left: 12vw;
+        margin-right: 12vw;
+    }
+
+    .vos_benefices img {
+        width: 90%;
+        height: 30%;
+        margin: 0 auto;
+        margin-bottom: 45px;
+    }
+    .space_management {
+        flex-direction: column;
+        margin-bottom: 45px;
+        margin-left: 12vw;
+        margin-right: 12vw;
+    }
+
+    .space_management img {
+        width: 90%;
+        height: 30%;
+        margin: 0 auto;
+        margin-bottom: 45px;
+    }
+
+    .reference {
+        white-space: wrap; /* Empêche le passage à la ligne des images */
+        display: inline-block; /* Affiche les images en ligne */
+        margin-right: 20px; /* Espacement entre les images */
+        overflow: hidden;
+    }
 }
