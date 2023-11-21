@@ -26,6 +26,11 @@ div.flex-ref {
     position: relative;
 }
 
+.hiden p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
 .nos-ref {
     font-size: 27px;
     font-weight: 700;
@@ -37,7 +42,7 @@ div.flex-ref {
 }
 
 .ref li div {
-    width: 400px;
+    width: 350px;
     height: auto;
     background-color: rgb(108, 108, 108);
     color: white;

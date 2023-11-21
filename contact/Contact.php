@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ASW Afrique, Politique Ressources Humaines</title>
-    <link rel="shortcut icon" href="../assets/atalian-logo.png">
     <link rel="stylesheet" href="style/Contact.css">
     <link rel="stylesheet" href="../style/style.css">
-    <div class="header">
-        <h1><a href="../index.html" class="home">ASW</a></h1>
-        <a href="#"><img src="../assets/France.jpeg" style="width: 30px; height: 20px;" alt="French flag"></a>
-        <a href="../English/about/about.html"><img src="../assets/UK.png" style="width: 30px; height: 20px;" alt="UK flag"></a>
+    <link rel="shortcut icon" href="../assets/logos/logo Orange small.jpg">
+    <div class="header" style="background-color: rgb(221,123,16);">
+        <h1><a href="../index.html" class="home"><img src="../assets/logos/logo Orange small.jpg" style="height: 80px; width: 160px;" alt=""></a></h1>
+        <!-- <button id="language" onclick="changeLanguage('fr')"><img src="assets/France.jpeg" style="width: 30px; height: 20px; margin-right: 5px;" alt="French flag"></button>
+        <button id="language" onclick="changeLanguage('en')"><img src="assets/UK.png" style="width: 30px; height: 20px;" alt="UK flag"></button> -->
     </div>
-    <nav class="navbar">
+    <nav class="navbar" style="background-color: white; border-bottom: 1px solid black;">
         <ul class="navbar">
-            <li class="navbar"><a href="../index.html"><img src="../assets/atalian-logo.png" style="height: 25px; width: 25px;" alt="logo atalian"></a></li>
+            <li class="navbar"><a href="../index.html"><img src="../assets/logos/logo Blanc small.jpg" style="height: 25px; width: 40px;" alt="logo atalian"></a></li>
             <li class="navbar"><a href="#">À propos</a>
                 <ul class="drop">
                     <li><a href="../about/about.html">Présentation</a></li>
@@ -53,8 +53,8 @@
             </li>
             <li class="navbar"><a href="#">Medias</a>
                 <ul class="drop">
-                    <li><a href="#">Actualités</a></li>  
-                    <li><a href="#">Téléchargez nos brochures</a></li>
+                    <li><a href="../medias/actualité.php">Actualités</a></li>  
+                    <li><a href="../medias/télécharger_nos_brochures.html">Téléchargez nos brochures</a></li>
                      
                 </ul>
             </li>
@@ -170,12 +170,11 @@ use function PHPSTORM_META\type;
                 $email_body = "Nom: ".$name."<br>".
                             "Prénom: ".$surname."<br>".
                             "Email: ".$visitor_email."<br>";
-                            if (isset($_POST['phone'])) {
-                                $phone = $_POST['phone'];
-                                $email_body .= "Téléphone: ".$phone."<br>";
-                            }
-                            $email_body .= "Message: <br>".$message."<br>";
-
+                if (isset($_POST['phone'])) {
+                    $phone = $_POST['phone'];
+                    $email_body .= "Téléphone: ".$phone."<br>";
+                }
+                $email_body .= "Message: <br>".$message."<br>";
                 $to = "amauryaed@gmail.com";
                 adaptable_mail($to, $email_subject, $email_body);
                 echo "<p>Message envoyé !</p>";
