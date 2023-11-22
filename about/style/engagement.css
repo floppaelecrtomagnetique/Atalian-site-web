@@ -66,3 +66,14 @@ ul.nos-engagement li h3 {
 .wraper {
     display: block;
 }
+
+@media screen and (max-width: 770px) {
+    .handshake {
+        text-align: center;
+        max-width: 90%;
+        height: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-top: 150px;
+    }
+}
