@@ -125,10 +125,23 @@ ul.mot-de-direction img {
 }
 
 @media screen and (max-width: 770px) {
+    div.le-mot-de-direction {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
     ul.mot-de-direction {
         flex-direction: column;
+        width: 100%;
     }
+
+    ul.mot-de-direction p {
+        width: 80%;
+        padding: 50px;
+    }
+
     ul.mot-de-direction li {
+        width: 90%;
         margin-top: 10px;
         margin-bottom: 10px;
     }
@@ -138,5 +151,18 @@ ul.mot-de-direction img {
     img.laught {
         width: 100%;
         margin-left: 0px;
+    }
+
+    p.about {
+        flex-direction: column;
+    }
+
+    p.about img {
+        width: 90%;
+        height: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
