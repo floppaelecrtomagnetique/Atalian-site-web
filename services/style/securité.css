@@ -97,3 +97,14 @@ div.certif img {
     width: 200px;
     height: auto;
 }
+
+@media screen and (max-width: 770px) {
+    h2.title {
+        width: fit-content;
+    }
+
+    div.SFS {
+        justify-content: center;
+    }
+
+}
