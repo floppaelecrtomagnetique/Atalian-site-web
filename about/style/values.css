@@ -89,3 +89,12 @@ ul li img {
 .initiative {
     display: block;
 }
+
+@media screen and (max-width: 770px) {
+    .ofa {
+        padding-top: 150px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
