@@ -48,8 +48,8 @@
                 <ul class="drop">
                     <li><a href="Politique-RH.html">Politique Ressources Humaines</a></li>
                     <li><a href="Politique-emploi.html">Notre Politique d'Emploi</a></li>
-                     
                     <li><a href="../carriere/Offres-emploi.php">Nos offres d'emploi</a></li>
+                    <li><a href="Candidature-spontanée.php">Candidature spontanée</a></li>
                 </ul>
             </li>
             <li class="navbar"><a href="#">Medias</a>
@@ -112,7 +112,7 @@
             }
         ?>
         <div class="emploi">
-            <img src="../assets/atalian-logo.png" alt="">
+            <img src="../assets/logos/ASW BF.png" alt="">
             <div>
                 <h2><?= $ep['Poste']?></h2>
                 <div class="flex" style="display: flex;">

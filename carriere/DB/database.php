@@ -27,5 +27,10 @@
     } catch (PDOException $e){
         echo "Erreur : " . $e->getMessage();
     }
+    try {
+        $cand = new PDO("mysql:HOST=". HOST . ";dbname=candidature; charset=utf8", "root", "");
+    } catch (PDOException $e){
+        echo "Erreur : " . $e->getMessage();
+    }
     // header( 'content-type: text/html; charset=utf-8' );
 ?>
