@@ -275,3 +275,10 @@
         outline: none;
     }
 </style>
+
+<div class="barre-de-contact">
+    <ul class="CB1">
+            <li><a href="../contact/Contact.php">contact</a></li>
+        <li><a href="../about/about.html">à propos de nous</a></li>
+    </ul>
+</div>

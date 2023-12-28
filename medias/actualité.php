@@ -66,5 +66,11 @@
 <body>
     <h1 style="padding-top: 160px; padding-left: 45px; color:black;">In building...</h1>
     <img src="media-removebg-preview.png" alt="media">
+    <div class="barre-de-contact">
+        <ul class="CB1">
+             <li><a href="../contact/Contact.php">contact</a></li>
+            <li><a href="../about/about.html">à propos de nous</a></li>
+        </ul>
+    </div>
 </body>
 </html>

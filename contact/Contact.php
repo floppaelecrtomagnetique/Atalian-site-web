@@ -175,10 +175,16 @@ use function PHPSTORM_META\type;
                     $email_body .= "Téléphone: ".$phone."<br>";
                 }
                 $email_body .= "Message: <br>".$message."<br>";
-                $to = "amauryaed@gmail.com";
+                $to = "dir-commerciale@aswafrique.com";
                 adaptable_mail($to, $email_subject, $email_body);
                 echo "<p>Message envoyé !</p>";
             }
         ?>
+    </div>
+    <div class="barre-de-contact">
+        <ul class="CB1">
+             <li><a href="../contact/Contact.php">contact</a></li>
+            <li><a href="../about/about.html">à propos de nous</a></li>
+        </ul>
     </div>
 </body>
