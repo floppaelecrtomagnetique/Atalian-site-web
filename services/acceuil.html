@@ -20,7 +20,7 @@
                     <li><a href="../about/about.html">Présentation</a></li>
                     <li><a href="../about/engagement.html">Nos engagements</a></li>
                     <li><a href="../about/values.html">Nos valeurs</a></li>
-                    <li><a href="../about/key_numbers.html">Chiffres clés</a></li>
+                    <!-- <li><a href="../about/key_numbers.html">Chiffres clés</a></li> -->
                     <li><a href="../about/expertise.html">Notre expertise</a></li>
                     <li><a href="../about/innovation.html">Innovation</a></li>
                 </ul>
